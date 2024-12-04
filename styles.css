@@ -39,3 +39,38 @@ h1{
     top: 30%;
     left: 10%;
 }
+
+input{
+    height: 2rem;
+    width: 15rem;
+}
+.first-row{
+    display: flex;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    gap: 30px;
+}
+.second-row{
+    display: flex;
+    position: absolute;
+    left: 40%;
+    top: 60%;
+}
+.third-row{
+    display: flex;
+    position: absolute;
+    left: 40%;
+    top: 70%;
+}
+.name{
+    display: flex;
+    position: absolute;
+    top:  -50%;
+}
+.last-name{
+    display: flex;
+    position: absolute;
+    left: 55%; 
+    top:  -50%;
+}
