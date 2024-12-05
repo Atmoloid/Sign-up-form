@@ -43,6 +43,8 @@ h1{
 input{
     height: 2rem;
     width: 15rem;
+    font-size: larger;
+    border-color: black;
 }
 .first-row{
     display: flex;
@@ -56,12 +58,14 @@ input{
     position: absolute;
     left: 40%;
     top: 60%;
+    gap: 30px;
 }
 .third-row{
     display: flex;
     position: absolute;
     left: 40%;
     top: 70%;
+    gap: 60px;
 }
 .name{
     display: flex;
@@ -73,4 +77,51 @@ input{
     position: absolute;
     left: 55%; 
     top:  -50%;
+}
+.email{
+    display: flex;
+    position: absolute;
+    top:  -50%;
+}
+.tel{
+    display: flex;
+    position: absolute;
+    left: 55%; 
+    top:  -50%;
+} 
+.password{
+    display: flex;
+    position: absolute;
+    top:  -50%;
+}
+.confirm{
+    display: flex;
+    position: absolute;
+    left: 55%; 
+    top:  -50%;
+}
+input:valid{
+    border-color: green;
+}
+input:invalid{
+    border-color: red;
+}
+p{
+    display: flex;
+    width: 520px;
+    position: absolute;
+    left: 40%;
+    font-size: x-large;
+    font-weight: bold;
+}
+button{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    position: absolute;
+    bottom: 18%;
+    left: 40%;
+    width: 9%;
+    height: 30px;
+    background-color: rgb(16, 112, 16);
 }
