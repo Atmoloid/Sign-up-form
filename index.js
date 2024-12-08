@@ -10,4 +10,4 @@ function checkPasswords() {
     }
 }
 
-button.addEventListener("click",checkPasswords());
+button.addEventListener("click",checkPasswords);

@@ -4,16 +4,17 @@ img{
     height: 700px;
     position: absolute;
     top: 0%;
+    left: 0%;
 }
 .logo-container{
     display: flex;
     position: absolute;
     top: 30%;
-    left: 1%;
+    left: 0%;
     justify-content: center;
     align-items: center;
     height: 100px;
-    width: 460px;
+    width: 468px;
     background-color: black;
     z-index: 1;
     opacity: 50%;
