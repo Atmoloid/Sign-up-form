@@ -101,10 +101,10 @@ input{
     left: 55%; 
     top:  -50%;
 }
-input:valid{
+input:user-valid{
     border-color: green;
 }
-input:invalid{
+input:user-invalid{
     border-color: red;
 }
 p{
